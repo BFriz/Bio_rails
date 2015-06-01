@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyBio</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class = "<%= params[:action] %>">
+<nav>
+  <li><%= link_to('About Me', aboutMe_path)%></li>  
+  <li><%= link_to('Tough Mudder',toughMudder_path)%></li>  
+  <li><%= link_to('Moustache Ride Across Canada', moRide_path)%></li>
+  <li><%= link_to('Basketball', basketball_path)%></li>  
+  <li><%= link_to('Videos', vids_path)%></li>  
+</nav>
+
+
+<%= yield %>
+
+</body>
+</html>
