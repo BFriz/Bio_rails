@@ -5,14 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body class = "<%= params[:action] %>">
 <nav>
+<ul>
   <li><%= link_to('About Me', aboutMe_path)%></li>  
   <li><%= link_to('Tough Mudder',toughMudder_path)%></li>  
   <li><%= link_to('Moustache Ride Across Canada', moRide_path)%></li>
   <li><%= link_to('Basketball', basketball_path)%></li>  
   <li><%= link_to('Videos', vids_path)%></li>  
+</ul>
 </nav>
 
 

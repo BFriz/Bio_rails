@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get '/aboutMe', to: 'home#aboutMe'
   get '/toughMudder', to: 'home#toughMudder'
-  get '/MoRide', to: 'home#MoRide'
+  get '/moRide', to: 'home#moRide'
   get '/basketball', to: 'home#basketball'
   get '/vids', to: 'home#vids'
 

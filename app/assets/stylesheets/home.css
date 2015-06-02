@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+}
+
+.logo img {
+ max-width: 300px;
+ max-height: 100px;
+}
+.moRide {
+  background-image: url("t.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+nav ul {
+padding-left: 0px;
+text-align: center;
+text-decoration: none;
+
+}
+
+nav ul li {
+list-style-type: none;
+display: inline-block;
+width: 15%;
+ text-decoration: none;
+ color: grey;
+}
+
+.that {
+  width:45%;
+  /*height: -400px; */
+  display: inline-block;
+  font-weight: bolder;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: grey;
+ display: inline-block;
+}
+.poop img {
+  width: 350px;
+  height: 400px;
+  margin-left: 70%;
+  display: inline-block;
+}
+.aboutMe {
+  background-image: url("back.jpeg");
+  background-repeat: no-repeat;
+  background-size: 125% 125%;
+
+}
+
+.poop {
+  float: right;
+  margin-right: 250px;
+}
+
+.that {
+  float: left;
+  margin-left: 100px;
+
+}
+
+
+
+

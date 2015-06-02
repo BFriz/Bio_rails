@@ -10,3 +10,4 @@ class HomeController < ApplicationController
   end
   def vids
   end
+end
